@@ -57,22 +57,6 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
-}
-
 .bg-repeat {
     background: repeat;
 }
@@ -682,7 +666,6 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
     margin: auto auto auto auto;
 }
 
@@ -742,6 +725,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -820,6 +804,7 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-size: cover;
 }
 
 .bg-presentation {
